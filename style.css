@@ -1,0 +1,110 @@
+
+html, body {
+height:100%;
+width:100%;
+font-family: 'poppins', sans-serif;
+color: #222;
+}
+
+
+.navbar {
+padding: .8rem;
+}
+
+.navbar-nav li {
+padding-right: 35px;
+}
+
+.nav-link {
+font-size: 1.1em !important;
+}
+
+.header-pic{
+    width:100%;
+    height: 150px;
+    background: url('img/header-pic2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hem {
+margin: 1rem;
+margin-top: 4rem;
+}
+
+footer {
+padding-top: 2rem;
+}
+
+.card-name{
+margin-top: 50px;
+}
+.card-info{
+margin: 0px;
+}
+
+body{
+background-color:antiquewhite;
+}
+
+.pics img{
+width: 20rem;
+}
+
+@media (max-width: 992px) {
+    .hem {
+margin-top: 1rem;
+}
+
+.produkter{
+margin: 2rem;        
+}
+
+.titel{
+font-size: 200%;
+}
+
+h2.subtitel{
+font-size: 200%;   
+}
+    
+.left{
+margin-left: 0;
+margin-bottom: 2rem; 
+    
+}
+    
+@media (max-width: 768px) {
+.hem {
+margin-top: 1rem;
+}
+
+.titel{
+font-size: 160%;
+}
+    
+h2.subtitel{
+font-size: 160%;   
+}
+    
+.left{
+margin-bottom: 2rem; 
+}
+
+footer {
+padding-top: 1rem;
+}
+    
+@media (max-width: 576px) {
+.hem {
+margin-top: 1rem;
+}
+    
+.titel{
+font-size: 140%;
+}
+h2.subtitel{
+font-size: 140%;   
+}
+.left{
+margin-bottom: 1rem; 
+}
